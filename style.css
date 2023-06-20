@@ -1,0 +1,51 @@
+@font-face {
+    font-family: out;
+    src: url(Outfit-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: balsamiq;
+    font-family: out;
+}
+
+.fondo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4eb3de;
+}
+
+.card-cont {
+    width: 19rem;
+    height: 30rem;
+    border-radius: 1rem;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+}
+
+.img {
+    width: 17.1em;
+    height: 18em;
+    margin: 0.9em;
+    border-radius: 0.5rem;
+    background: #210df5;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: 600px;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+    color: hsl(218, 44%, 22%);
+}
+
+.par {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0 1em 1em 1em;
+    color: hsl(220, 15%, 55%);
+}
